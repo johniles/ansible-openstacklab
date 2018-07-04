@@ -1,0 +1,13 @@
+---
+- hosts: jumpbox
+  gather_facts: true
+  roles:
+  - name: osp-facts 
+
+#- name: frontend smoke test
+#  hosts: frontends
+#  become: yes
+#  gather_facts: false
+#  roles:
+  - name: smoke 
+

@@ -1,0 +1,19 @@
+---
+- name: OPS servers
+  os_server_facts:
+    cloud: osp_cloud
+    server: 'frontends'
+
+- name: Curl url
+  uri:
+    url: "http://{{item.accessIPv4}}"
+    return_content: yes
+  with_items:
+    - "{{ openstack_servers }}"
+  register: webpage  
+
+- name: Fail if Status Code is not 200
+  fail:
+  when: item.status != 200
+  with_items: 
+  - "{{ webpage.results }}"
