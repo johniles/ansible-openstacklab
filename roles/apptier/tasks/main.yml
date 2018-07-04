@@ -1,0 +1,20 @@
+---
+  - name: install tomcat
+    yum:
+      name: "{{ item }}"
+      state: latest
+    with_items:
+       - tomcat
+    notify: tomcat_restart
+
+  - name: create ansible tomcat directory
+    file:
+      path: /usr/share/tomcat/webapps/ROOT
+      state: directory
+
+  - name: copy static index.html to tomcat webapps/ansible/index.html
+    template:
+      src: index.html.j2
+      dest: /usr/share/tomcat/webapps/ROOT/index.html
+      mode: 0644
+

@@ -1,0 +1,33 @@
+---
+- hosts: jumpbox
+  gather_facts: true
+  roles:
+  - name: osp-facts
+
+- name: configure app
+  hosts: apps
+  become: yes
+  gather_facts: false
+
+  roles:
+    - {name: repo} 
+    - {name: apptier, tags: [apps]}
+
+- name: configure web
+  hosts: frontends
+  become: yes
+  gather_facts: false
+
+  roles:
+    - {name: repo}
+    - {name: webtier, tags: [lbs]} 
+
+- name: configure db
+  hosts: appdbs
+  become: yes
+  gather_facts: false
+
+  roles:
+    - {name: repo}
+    - {name: dbtier, tags: [dbs]}
+

@@ -1,0 +1,15 @@
+---
+  - name: http
+    yum: 
+      name: "{{ item }}"
+      state: latest
+    with_items:
+       - httpie
+       - haproxy 
+    notify: haproxy_restart
+
+  - name: configure haproxy
+    template:
+      src: haproxy.cfg.j2
+      dest: /etc/haproxy/haproxy.cfg
+    notify: haproxy_restart

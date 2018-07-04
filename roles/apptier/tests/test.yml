@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - /home/john.iles-spark.co.nz/good-ansible/apptier
