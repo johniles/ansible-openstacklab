@@ -46,18 +46,20 @@
 	-
 
 # File marks:
-'0  4  14  ~/smoke-test.yml
-'1  18  21  ~/roles/smoke-test/tasks/main.yml
-'2  9  21  ~/roles/smoke/tasks/main.yml
-'3  1  0  ~/main.yml
-'4  8  4  ~/roles/smoke/tasks/main.yml
-'5  5  21  ~/roles/smoke/tasks/main.yml
-'6  19  4  ~/roles/smoke/tasks/main.yml
-'7  20  14  ~/roles/smoke/tasks/main.yml
-'8  6  0  ~/roles/smoke/tasks/main.yml
-'9  14  0  ~/roles/smoke/tasks/main.yml
+'0  5  5  ~/roles/osp-del-instances/tasks/main.yml
+'1  4  14  ~/smoke-test.yml
+'2  18  21  ~/roles/smoke-test/tasks/main.yml
+'3  9  21  ~/roles/smoke/tasks/main.yml
+'4  1  0  ~/main.yml
+'5  8  4  ~/roles/smoke/tasks/main.yml
+'6  5  21  ~/roles/smoke/tasks/main.yml
+'7  19  4  ~/roles/smoke/tasks/main.yml
+'8  20  14  ~/roles/smoke/tasks/main.yml
+'9  6  0  ~/roles/smoke/tasks/main.yml
 
 # Jumplist (newest first):
+-'  5  5  ~/roles/osp-del-instances/tasks/main.yml
+-'  1  0  ~/roles/osp-del-instances/tasks/main.yml
 -'  4  14  ~/smoke-test.yml
 -'  18  21  ~/roles/smoke-test/tasks/main.yml
 -'  1  0  ~/roles/smoke-test/tasks/main.yml
@@ -153,10 +155,16 @@
 -'  1  0  ~/ssh.cfg
 -'  12  46  ~/ssh.cfg
 -'  1  0  ~/ssh.cfg
--'  1  0  ~/osp_flavor.yml
--'  2  15  ~/osp_jumpbox_inventory
 
 # History of marks within files (newest to oldest):
+
+> ~/roles/osp-del-instances/tasks/main.yml
+	"	5	5
+	^	5	6
+	.	5	5
+	+	1	0
+	+	1	33
+	+	5	5
 
 > ~/smoke-test.yml
 	"	4	14
