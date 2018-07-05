@@ -953,3 +953,11 @@ ssh workstation-5f1e.rhpds.opentlc.com
 ansible all -m ping
 ls -rlt
 uname -a
+ls -rlt
+more Provision_OPS.yml
+ls -rlt
+vi Configure_3TA_OSP.yml
+set -o vi
+git add .
+git commit -m "update playbook"
+git push
