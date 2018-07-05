@@ -4,6 +4,11 @@
     cloud: ospcloud
     server: 'frontend'
 
+- name: wait for host
+    host: "{{ inventory_hostname }}"
+      port: 22
+    delegate_to: localhost
+
 - name: Curl url
   uri:
     url: "http://{{item.accessIPv4}}"

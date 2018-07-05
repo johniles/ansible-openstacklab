@@ -9,8 +9,8 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-:q!
 :q
+:q!
 :wq!Q
 
 # Search String History (newest to oldest):
@@ -46,18 +46,21 @@
 	P
 
 # File marks:
-'0  10  0  ~/ansible.cfg
-'1  1  13  ~/cleanup_OSP.yml
-'2  1  0  ~/cat
-'3  2  13  ~/Smoke_Test.yml
-'4  19  5  ~/roles/dbtier/tasks/main.yml
-'5  2  9  ~/Configure_3TA_OSP.yml
-'6  5  3  ~/roles/osp-del-instances/tasks/main.yml
-'7  1  0  ~/osp-del-instance.yml
-'8  8  0  ~/roles/osp-del-instances/vars/main.yml
-'9  5  36  ~/roles/osp-del-instances/vars/frontend.yaml
+'0  10  0  ~/roles/smoke/tasks/main.yml
+'1  1  0  ~/So*
+'2  10  0  ~/ansible.cfg
+'3  1  13  ~/cleanup_OSP.yml
+'4  1  0  ~/cat
+'5  2  13  ~/Smoke_Test.yml
+'6  19  5  ~/roles/dbtier/tasks/main.yml
+'7  2  9  ~/Configure_3TA_OSP.yml
+'8  5  3  ~/roles/osp-del-instances/tasks/main.yml
+'9  1  0  ~/osp-del-instance.yml
 
 # Jumplist (newest first):
+-'  10  0  ~/roles/smoke/tasks/main.yml
+-'  14  4  ~/roles/smoke/tasks/main.yml
+-'  1  0  ~/So*
 -'  10  0  ~/ansible.cfg
 -'  1  0  ~/ansible.cfg
 -'  1  13  ~/cleanup_OSP.yml
@@ -85,18 +88,17 @@
 -'  4  14  ~/smoke-test.yml
 -'  18  21  ~/roles/smoke-test/tasks/main.yml
 -'  1  0  ~/roles/smoke-test/tasks/main.yml
--'  9  21  ~/roles/smoke/tasks/main.yml
 -'  1  0  ~/main.yml
--'  8  2  ~/roles/smoke/tasks/main.yml
+-'  13  2  ~/roles/smoke/tasks/main.yml
 -'  5  4  ~/roles/smoke/tasks/main.yml
--'  19  2  ~/roles/smoke/tasks/main.yml
--'  20  4  ~/roles/smoke/tasks/main.yml
+-'  24  2  ~/roles/smoke/tasks/main.yml
+-'  25  4  ~/roles/smoke/tasks/main.yml
 -'  6  0  ~/roles/smoke/tasks/main.yml
--'  14  0  ~/roles/smoke/tasks/main.yml
+-'  19  0  ~/roles/smoke/tasks/main.yml
 -'  3  2  ~/smoke-test.yml
 -'  1  0  ~/main*
 -'  4  4  ~/roles/smoke/tasks/main.yml
--'  17  2  ~/roles/smoke/tasks/main.yml
+-'  22  2  ~/roles/smoke/tasks/main.yml
 -'  8  0  ~/smoke-test.yml
 -'  9  2  ~/smoke-test.yml
 -'  1  0  ~/roles/main.ymlcd
@@ -154,11 +156,81 @@
 -'  1  0  ~/Smoke_Test.yml
 -'  19  5  ~/roles/dbtier/tasks/main.yml
 -'  18  6  ~/roles/dbtier/tasks/main.yml
--'  2  9  ~/Configure_3TA_OSP.yml
--'  1  0  ~/Configure_3TA_OSP.yml
--'  5  3  ~/roles/osp-del-instances/tasks/main.yml
 
 # History of marks within files (newest to oldest):
+
+> ~/roles/smoke/tasks/main.yml
+	"	10	0
+	^	11	0
+	.	10	26
+	+	25	52
+	+	2	11
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	12	15
+	+	15	4
+	+	16	0
+	+	15	0
+	+	16	0
+	+	15	0
+	+	17	0
+	+	18	0
+	+	20	0
+	+	20	0
+	+	6	0
+	+	20	1
+	+	20	0
+	+	20	37
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	2
+	+	25	0
+	+	25	3
+	+	6	0
+	+	20	0
+	+	25	0
+	+	17	9
+	+	24	23
+	+	17	27
+	+	5	21
+	+	4	14
+	+	6	0
+	+	6	14
+	+	19	0
+	+	25	0
+	+	19	2
+	+	20	2
+	+	19	0
+	+	20	0
+	+	19	0
+	+	5	19
+	+	6	0
+	+	6	25
+	+	19	0
+	+	25	0
+	+	6	0
+	+	6	3
+	+	19	0
+	+	25	0
+	+	5	20
+	+	6	0
+	+	19	0
+	+	25	0
+	+	17	27
+	+	24	23
+	+	5	21
+	+	10	26
+
+> ~/So*
+	"	1	0
 
 > ~/ansible.cfg
 	"	10	0
@@ -330,75 +402,6 @@
 	+	17	37
 	+	18	21
 
-> ~/roles/smoke/tasks/main.yml
-	"	9	21
-	^	5	22
-	.	5	21
-	+	20	52
-	+	2	11
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	7	15
-	+	10	4
-	+	11	0
-	+	10	0
-	+	11	0
-	+	10	0
-	+	12	0
-	+	13	0
-	+	15	0
-	+	15	0
-	+	6	0
-	+	15	1
-	+	15	0
-	+	15	37
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	2
-	+	20	0
-	+	20	3
-	+	6	0
-	+	15	0
-	+	20	0
-	+	12	9
-	+	19	23
-	+	12	27
-	+	5	21
-	+	4	14
-	+	6	0
-	+	6	14
-	+	14	0
-	+	20	0
-	+	14	2
-	+	15	2
-	+	14	0
-	+	15	0
-	+	14	0
-	+	5	19
-	+	6	0
-	+	6	25
-	+	14	0
-	+	20	0
-	+	6	0
-	+	6	3
-	+	14	0
-	+	20	0
-	+	5	20
-	+	6	0
-	+	14	0
-	+	20	0
-	+	12	27
-	+	19	23
-	+	5	21
-
 > ~/main.yml
 	"	1	0
 
@@ -407,9 +410,3 @@
 
 > ~/roles/main.ymlcd
 	"	1	0
-
-> /tmp/bash-fc-3980681693
-	"	2	0
-	^	2	0
-	.	1	0
-	+	1	0
