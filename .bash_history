@@ -864,3 +864,92 @@ history |grep git
 git add .
 git commit -m "update playbook"
 git push
+ls -rlt
+cd roles
+ls -rlt
+cd ..
+l s-lrt
+ls -rlt
+cd role
+cd roles
+l s-rlt
+ls -rlt
+mkdir osp-del-instances
+cd osp-del-instances
+ls -rlt
+mkdir -p defaults handlers meta tasks tests vars
+ls -rlt
+cd ../osp-flavor
+ls
+cp README.md ../osp-del-instances/
+cd ../osp-del-instances/
+cd tasks
+ls -rlt
+vi main.yml
+ls -rlt
+cd ..
+l s-rlt
+ls -rlt
+more start-site.yml
+ls -rlt
+more site.yml
+ls -lrt
+mv site.yml 3-tier.yml
+mv start-site.yml osp.yml
+ls -lrt
+rm -r ansible-assignments
+rm -rf ansible-assignments
+rm -rf good_example
+rm -rf ansible-assignment
+lls -rlt
+ls -rlt
+sudo -i
+ls -rlt
+set -o vi
+git add .
+git add --all
+git add .
+git commit -m "update playbook"
+git push
+ls -rlt
+cat osp_flavor.yml
+cd roles
+ls 
+ls -rlt
+cd ..
+ls -lrt
+vi osp-del-instance.yml
+cd roles
+ls -rlt
+cd osp-del-instances
+ls -rlt
+cd vars
+l s-rlt
+vi app1.yaml
+vi app2.yaml
+vi db.yaml
+vi frontend.yaml
+ls -rlt
+vi main.yml
+cd ../../
+ls -rlt
+cd ..
+l s-rlt
+ls -rlt
+ansible-playbook osp-del-instance.yml
+vi osp-del-instance.yml
+ansible-playbook osp-del-instance.yml
+vi /home/john.iles-spark.co.nz/roles/osp-del-instances/tasks/main.yml
+ansible-playbook osp-del-instance.yml
+ls -rlt
+cat osp_jumpbox_inventory
+uname -a
+sudo su -
+sudo -i
+ansible all --list-hosts
+ssh cloud-user@workstation-5f1e.rhpds.opentlc.com --private-key=~/.ssh/openstack.pem
+ ssh cloud-user@workstation-5f1e.rhpds.opentlc.com -i ~/.ssh/openstack.pem
+ssh workstation-5f1e.rhpds.opentlc.com
+ansible all -m ping
+ls -rlt
+uname -a

@@ -46,18 +46,20 @@
 	 
 
 # File marks:
-'0  5  3  ~/roles/osp-del-instances/tasks/main.yml
-'1  1  0  ~/osp-del-instance.yml
-'2  8  0  ~/roles/osp-del-instances/vars/main.yml
-'3  5  36  ~/roles/osp-del-instances/vars/frontend.yaml
-'4  5  30  ~/roles/osp-del-instances/vars/db.yaml
-'5  5  31  ~/roles/osp-del-instances/vars/app2.yaml
-'6  5  0  ~/roles/osp-del-instances/vars/app1.yaml
-'7  22  0  ~/osp-del-instance.yml
-'8  4  14  ~/smoke-test.yml
-'9  18  21  ~/roles/smoke-test/tasks/main.yml
+'0  2  9  ~/Configure_3TA_OSP.yml
+'1  5  3  ~/roles/osp-del-instances/tasks/main.yml
+'2  1  0  ~/osp-del-instance.yml
+'3  8  0  ~/roles/osp-del-instances/vars/main.yml
+'4  5  36  ~/roles/osp-del-instances/vars/frontend.yaml
+'5  5  30  ~/roles/osp-del-instances/vars/db.yaml
+'6  5  31  ~/roles/osp-del-instances/vars/app2.yaml
+'7  5  0  ~/roles/osp-del-instances/vars/app1.yaml
+'8  22  0  ~/osp-del-instance.yml
+'9  4  14  ~/smoke-test.yml
 
 # Jumplist (newest first):
+-'  2  9  ~/Configure_3TA_OSP.yml
+-'  1  0  ~/Configure_3TA_OSP.yml
 -'  5  3  ~/roles/osp-del-instances/tasks/main.yml
 -'  1  0  ~/osp-del-instance.yml
 -'  22  7  ~/osp-del-instance.yml
@@ -157,6 +159,12 @@
 -'  1  0  ~/osp_flavor.yml
 
 # History of marks within files (newest to oldest):
+
+> ~/Configure_3TA_OSP.yml
+	"	2	9
+	^	2	14
+	.	2	13
+	+	2	13
 
 > ~/roles/osp-del-instances/tasks/main.yml
 	"	5	3
@@ -502,16 +510,3 @@
 > /tmp/bash-fc-1530661012
 	"	1	0
 	^	1	1
-
-> ~/roles/osp-facts/tasks/main.yml
-	"	21	7
-	^	20	8
-	.	20	7
-	+	12	6
-	+	13	6
-	+	19	6
-	+	20	6
-	+	12	7
-	+	13	7
-	+	19	7
-	+	20	7

@@ -1,5 +1,5 @@
 ---
-- hosts: jumpbox
+- hosts: all #jumpbox
   gather_facts: true
   roles:
   - name: osp-facts
