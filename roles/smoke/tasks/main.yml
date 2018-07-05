@@ -21,6 +21,6 @@
 
 - name: Fail if Status Code is not 200
   fail:
-  when: item.status != 200
+  when: item.status == 200
   with_items: 
   - "{{ webpage.results}}"
