@@ -8,6 +8,8 @@
   wait_for:
     host: "{{item.accessIPv4}}"
     port: 22
+  with_items:
+    - "{{ openstack_servers}}"
 
 - name: Curl url
   uri:
