@@ -8,7 +8,6 @@
   wait_for:
     host: "{{item.accessIPv4}}"
     port: 22
-  delegate_to: localhost
 
 - name: Curl url
   uri:
