@@ -5,9 +5,9 @@
     server: 'frontend'
 
 - name: wait for host
-    host: "{{ inventory_hostname }}"
-      port: 22
-    delegate_to: localhost
+    host: "{{item.accessIPv4}}"
+    port: 22
+  delegate_to: localhost
 
 - name: Curl url
   uri:
