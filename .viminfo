@@ -46,18 +46,20 @@
 	P
 
 # File marks:
-'0  19  5  ~/roles/dbtier/tasks/main.yml
-'1  2  9  ~/Configure_3TA_OSP.yml
-'2  5  3  ~/roles/osp-del-instances/tasks/main.yml
-'3  1  0  ~/osp-del-instance.yml
-'4  8  0  ~/roles/osp-del-instances/vars/main.yml
-'5  5  36  ~/roles/osp-del-instances/vars/frontend.yaml
-'6  5  30  ~/roles/osp-del-instances/vars/db.yaml
-'7  5  31  ~/roles/osp-del-instances/vars/app2.yaml
-'8  5  0  ~/roles/osp-del-instances/vars/app1.yaml
-'9  22  0  ~/osp-del-instance.yml
+'0  2  13  ~/Smoke_Test.yml
+'1  19  5  ~/roles/dbtier/tasks/main.yml
+'2  2  9  ~/Configure_3TA_OSP.yml
+'3  5  3  ~/roles/osp-del-instances/tasks/main.yml
+'4  1  0  ~/osp-del-instance.yml
+'5  8  0  ~/roles/osp-del-instances/vars/main.yml
+'6  5  36  ~/roles/osp-del-instances/vars/frontend.yaml
+'7  5  30  ~/roles/osp-del-instances/vars/db.yaml
+'8  5  31  ~/roles/osp-del-instances/vars/app2.yaml
+'9  5  0  ~/roles/osp-del-instances/vars/app1.yaml
 
 # Jumplist (newest first):
+-'  2  13  ~/Smoke_Test.yml
+-'  1  0  ~/Smoke_Test.yml
 -'  19  5  ~/roles/dbtier/tasks/main.yml
 -'  18  6  ~/roles/dbtier/tasks/main.yml
 -'  2  9  ~/Configure_3TA_OSP.yml
@@ -155,9 +157,14 @@
 -'  1  0  ~/osp_jumpbox_inventory
 -'  12  46  ~/ssh.cfg
 -'  1  0  ~/ssh.cfg
--'  12  46  ~/ssh.cfg
 
 # History of marks within files (newest to oldest):
+
+> ~/Smoke_Test.yml
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
 
 > ~/roles/dbtier/tasks/main.yml
 	"	19	5
@@ -515,7 +522,3 @@
 	+	6	4
 	+	4	11
 	+	7	0
-
-> /tmp/bash-fc-1530661012
-	"	1	0
-	^	1	1

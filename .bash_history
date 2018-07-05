@@ -961,3 +961,23 @@ set -o vi
 git add .
 git commit -m "update playbook"
 git push
+ls -rlt
+cd roles
+l s-rlt
+ls -rlt
+cd dbtier
+ls -rlt
+cd tasks
+ls -rlt
+vi *
+cd ../../../
+ls -rlt
+/git
+set -o vi
+git add .
+git commit -m "update playbook"
+git push
+ls -rlt
+vi Smoke_Test.yml
+set -i vi
+history |grrep git
