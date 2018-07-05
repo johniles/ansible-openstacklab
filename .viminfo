@@ -25,39 +25,41 @@
 "0	LINE	0
 	      enabled: yes
 ""1	LINE	0
-	    when: not pgdata_dir_version.stat.exists
-"2	LINE	0
-	    command: postgresql-setup initdb
-"3	LINE	0
-	  - name: Ensure PostgreSQL database is initialized.
-"4	LINE	0
 	
+"2	LINE	0
+	gather_timeout = 300
+"3	LINE	0
+	timeout = 30
+"4	LINE	0
+	inventory = ./inventory/inventory_local
 "5	LINE	0
-	    register: pgdata_dir_version
+	
 "6	LINE	0
-	      path: /var/lib/pgsql/data/
+	    when: not pgdata_dir_version.stat.exists
 "7	LINE	0
-	    stat:
+	    command: postgresql-setup initdb
 "8	LINE	0
-	      enabled: yes
+	  - name: Ensure PostgreSQL database is initialized.
 "9	LINE	0
-	security_group_name: app_servers
+	
 "-	CHAR	0
 	P
 
 # File marks:
-'0  1  13  ~/cleanup_OSP.yml
-'1  1  0  ~/cat
-'2  2  13  ~/Smoke_Test.yml
-'3  19  5  ~/roles/dbtier/tasks/main.yml
-'4  2  9  ~/Configure_3TA_OSP.yml
-'5  5  3  ~/roles/osp-del-instances/tasks/main.yml
-'6  1  0  ~/osp-del-instance.yml
-'7  8  0  ~/roles/osp-del-instances/vars/main.yml
-'8  5  36  ~/roles/osp-del-instances/vars/frontend.yaml
-'9  5  30  ~/roles/osp-del-instances/vars/db.yaml
+'0  10  0  ~/ansible.cfg
+'1  1  13  ~/cleanup_OSP.yml
+'2  1  0  ~/cat
+'3  2  13  ~/Smoke_Test.yml
+'4  19  5  ~/roles/dbtier/tasks/main.yml
+'5  2  9  ~/Configure_3TA_OSP.yml
+'6  5  3  ~/roles/osp-del-instances/tasks/main.yml
+'7  1  0  ~/osp-del-instance.yml
+'8  8  0  ~/roles/osp-del-instances/vars/main.yml
+'9  5  36  ~/roles/osp-del-instances/vars/frontend.yaml
 
 # Jumplist (newest first):
+-'  10  0  ~/ansible.cfg
+-'  1  0  ~/ansible.cfg
 -'  1  13  ~/cleanup_OSP.yml
 -'  1  0  ~/cat
 -'  2  13  ~/Smoke_Test.yml
@@ -155,9 +157,16 @@
 -'  2  9  ~/Configure_3TA_OSP.yml
 -'  1  0  ~/Configure_3TA_OSP.yml
 -'  5  3  ~/roles/osp-del-instances/tasks/main.yml
--'  1  0  ~/osp-del-instance.yml
 
 # History of marks within files (newest to oldest):
+
+> ~/ansible.cfg
+	"	10	0
+	.	10	0
+	+	10	19
+	+	4	20
+	+	5	0
+	+	10	0
 
 > ~/cleanup_OSP.yml
 	"	1	13
@@ -404,108 +413,3 @@
 	^	2	0
 	.	1	0
 	+	1	0
-
-> ~/site.yml
-	"	7	0
-	^	33	1
-	.	7	0
-	+	34	24
-	+	7	14
-	+	7	14
-	+	7	14
-	+	9	14
-	+	18	14
-	+	7	2
-	+	15	2
-	+	34	2
-	+	7	2
-	+	7	2
-	+	7	2
-	+	7	2
-	+	7	2
-	+	7	2
-	+	7	2
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	23
-	+	7	0
-	+	4	7
-	+	5	10
-	+	6	0
-	+	7	21
-	+	7	1
-	+	8	1
-	+	9	1
-	+	10	1
-	+	14	1
-	+	15	1
-	+	15	0
-	+	15	0
-	+	17	0
-	+	18	0
-	+	34	0
-	+	34	0
-	+	34	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	5
-	+	7	2
-	+	7	2
-	+	7	2
-	+	7	2
-	+	7	1
-	+	7	1
-	+	7	0
-	+	7	3
-	+	7	5
-	+	7	7
-	+	7	7
-	+	7	6
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	17
-	+	7	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	21
-	+	14	20
-	+	15	0
-	+	17	0
-	+	18	0
-	+	34	0
-	+	23	20
-	+	34	0
-	+	7	0
-	+	7	0
-	+	7	31
-	+	14	33
-	+	23	32
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	32	35
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	7	0

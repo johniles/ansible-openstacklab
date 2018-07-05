@@ -1,4 +1,3 @@
-sudo su -
 sudo bash
 ls -rlt
 cd good-ansible
@@ -988,4 +987,14 @@ history |grrep git
 history |grep git
 git add .
  git commit -m "update playbook"
+git push
+ls -lrt
+vi cat osp_jumpbox_inventory
+ls -rlt
+cat osp_jumpbox_inventory
+vi cleanup_OSP.yml
+set -o vi
+history |grep git
+git add .
+git commit -m "update playbook"
 git push
