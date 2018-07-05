@@ -1,4 +1,4 @@
-- hosts: jumpbox
+- hosts: all #jumpbox
   tasks:
 ##Delete Fronend Instance
   - name: Delete frontend instance

@@ -981,3 +981,11 @@ ls -rlt
 vi Smoke_Test.yml
 set -i vi
 history |grrep git
+ls -rlt
+vi Smoke_Test.yml
+set -i vi
+history |grrep git
+history |grep git
+git add .
+ git commit -m "update playbook"
+git push
