@@ -1,5 +1,5 @@
 ---
-- hosts: jumphost
+- hosts: all #jumphost
   become: true
   gather_facts: false
   tasks:
