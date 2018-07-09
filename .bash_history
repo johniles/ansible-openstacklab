@@ -50,3 +50,22 @@ ansible all --list-hosts
 set -o vi
 ansible all --list-hosts
 ansible all -m ping
+ls -rlt
+vi aws-check.yml
+ls -lrt
+git add .
+set -o vi
+git commit -m "update playbook"
+git push
+t
+ls -lrt
+cat aws-check.yml
+set -o vi
+sudo su -
+ls -rlt
+vi aws-check.yml
+set -o vi
+vi aws-check.yml
+ls -rlt
+vi aws_creds.yml
+sudo su -

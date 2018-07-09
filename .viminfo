@@ -10,6 +10,7 @@
 # Command Line History (newest to oldest):
 :wq!
 :q!
+:q
 
 # Search String History (newest to oldest):
 
@@ -20,18 +21,115 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
+""1	LINE	0
+	  become: true
+"2	LINE	0
 	
-""-	CHAR	0
+"-	CHAR	0
 	 
 
 # File marks:
-'0  1  64  ~/aws-check.yml
-'1  28  17  ~/aws-prov.yml
-'2  2  13  ~/aws-prov.yml
+'0  31  5  ~/aws-key.yml
+'1  1  5  ~/aws_creds.yml
+'2  3  2  ~/aws-check.yml
+'3  1  64  ~/aws-check.yml
+'4  28  17  ~/aws-prov.yml
+'5  2  13  ~/aws-prov.yml
 
 # Jumplist (newest first):
--'  1  64  ~/aws-check.yml
+-'  31  5  ~/aws-key.yml
+-'  1  0  ~/aws-key.yml
+-'  1  5  ~/aws_creds.yml
+-'  3  2  ~/aws-check.yml
+-'  1  0  ~/aws-check.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  3  2  ~/aws-check.yml
+-'  1  0  ~/aws-check.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  1  5  ~/aws_creds.yml
+-'  3  2  ~/aws-check.yml
+-'  1  0  ~/aws-check.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  3  2  ~/aws-check.yml
+-'  1  0  ~/aws-check.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
+-'  28  17  ~/aws-prov.yml
+-'  2  0  ~/aws-prov.yml
+-'  1  0  ~/aws-prov.yml
 -'  28  17  ~/aws-prov.yml
 -'  2  0  ~/aws-prov.yml
 -'  1  0  ~/aws-prov.yml
@@ -41,13 +139,25 @@
 
 # History of marks within files (newest to oldest):
 
+> ~/aws-key.yml
+	"	31	5
+	^	31	6
+	.	31	5
+	+	31	5
+
+> ~/aws_creds.yml
+	"	1	5
+	^	53	6
+	.	53	5
+	+	53	5
+
 > ~/aws-check.yml
-	"	1	64
-	^	1	66
-	.	1	64
+	"	3	2
+	.	3	0
 	+	12	34
 	+	13	0
 	+	1	64
+	+	3	0
 
 > ~/aws-prov.yml
 	"	28	17
