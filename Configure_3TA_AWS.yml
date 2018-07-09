@@ -1,0 +1,31 @@
+---
+- hosts: all #jumpbox
+  gather_facts: true
+
+- name: configure app
+  hosts: appsnsibleGroup_apps
+  become: yes
+  gather_facts: false
+
+  roles:
+    - {name: repo} 
+    - {name: apptier, tags: [apps]}
+
+- name: configure web
+  hosts: tag_AnsibleGroup_frontends
+  become: yes
+  gather_facts: false
+
+  roles:
+    - {name: repo}
+    - {name: webtier, tags: [lbs]} 
+
+- name: configure db
+  hosts: tag_AnsibleGroup_appdbs
+  become: yes
+  gather_facts: false
+
+  roles:
+    - {name: repo}
+    - {name: dbtier, tags: [dbs]}
+

@@ -69,3 +69,12 @@ vi aws-check.yml
 ls -rlt
 vi aws_creds.yml
 sudo su -
+ls -rlt
+vi aws-key.yml
+ls -rlt
+set -o vi
+git add .
+sudo su -
+ls -rlt
+cp Configure_3TA_OSP.yml Configure_3TA_AWS.yml
+vi Configure_3TA_AWS.yml
