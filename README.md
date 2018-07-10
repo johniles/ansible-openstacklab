@@ -1,11 +1,3 @@
-# ansible-openstacklab
-    Provision_OSP.yml
-
-    Configure_3TA_OSP.yml
-
-    Smoke_Test.yml (smoke test task)
-
-    cleanup_OSP.yml (runs if other tasks fail, destroys OpenStack instances)
 == Homework Assignment
 
 === Prerequisites 
@@ -35,4 +27,4 @@ If OSP Smoke test successful
 ... AWS Smoke Test (Smoke_Test_AWS.yml)
 
 else
-... OSP Delelet instances (cleanup_OSP.yml)
+... OSP Delete instances (cleanup_OSP.yml)
