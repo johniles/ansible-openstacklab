@@ -78,3 +78,5 @@ sudo su -
 ls -rlt
 cp Configure_3TA_OSP.yml Configure_3TA_AWS.yml
 vi Configure_3TA_AWS.yml
+ls -rlt
+sudo su -
