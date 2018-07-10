@@ -1,19 +1,19 @@
-== Homework Assignment
+# Homework Assignment
 
-=== Prerequisites 
+## Prerequisites 
 
 * Ansible Tower Lab running in opentlc 
 * Openstack Lab Enviorment running in opentlc 
 
 
-=== Playbook for homework (tower and openstack environments need to be running)
+## Playbook for homework (tower and openstack environments need to be running)
 
 * Run `Home work (workflow Template)` from ansible tower https://tower1.1705.example.opentlc.com
 
-** Workflow Template will run the following playbooks
+## Workflow Template will run the following playbooks
 
-. Home Work (Project Sync) 
-.. AWS INFRA (aws-prov.yml)
+#### Home Work (Project Sync) 
+##### AWS INFRA (aws-prov.yml)
 .. AWS (Amazon EC2 dynamic inventory)
 .. AWS ssh keys (setup ssh keys for cloud-user)
 
