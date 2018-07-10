@@ -21,10 +21,10 @@
 ##### OSP 3 Tier (Configure_3TA_OSP.yml)
 ##### OSP Smoke test (Smoke_Test.yml)
 
-##If OSP Smoke test successful
+## If OSP Smoke test successful
 ###### AWS (Amazon EC2 dynamic inventory)
 ###### AWS 3 Tier Prod (Configure_3TA_AWS.yml)
 ###### AWS Smoke Test (Smoke_Test_AWS.yml)
 
-##else
+## else
 ###### OSP Delete instances (cleanup_OSP.yml)
