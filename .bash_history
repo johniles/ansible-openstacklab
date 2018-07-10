@@ -80,3 +80,8 @@ cp Configure_3TA_OSP.yml Configure_3TA_AWS.yml
 vi Configure_3TA_AWS.yml
 ls -rlt
 sudo su -
+ssh 107.21.60.124
+ls -alrt
+curl http://107.21.60.124
+uname -a
+sudo su -

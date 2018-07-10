@@ -3,7 +3,7 @@
   gather_facts: true
 
 - name: configure app
-  hosts: appsnsibleGroup_apps
+  hosts: tag_AnsibleGroup_apps
   become: yes
   gather_facts: false
 
