@@ -85,3 +85,8 @@ ls -alrt
 curl http://107.21.60.124
 uname -a
 sudo su -
+exit
+sudo -i
+exit
+ls -rlt
+cat aws-prov.yml
